@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-29T15:40:38.096847+00:00",
+  "_captured_run_id": "r_276c7c0d58e04a0693befffeda3667a2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tcdb9192 (10 rows, 7 columns).",
+    "NOTE: Wrote BCS_1 (9 rows, 8 columns).",
+    "NOTE: Wrote BCS_2 (8 rows, 9 columns).",
+    "NOTE: Wrote age50 (5 rows, 12 columns).",
+    "NOTE: Wrote RT_2 (5 rows, 14 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

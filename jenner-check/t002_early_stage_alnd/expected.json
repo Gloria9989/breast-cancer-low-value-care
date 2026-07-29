@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-29T15:40:59.739705+00:00",
+  "_captured_run_id": "r_e61e5f61c742428c8ea0b2fec2704bf3",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tcdb9192 (10 rows, 3 columns).",
+    "NOTE: Wrote earlyBC (10 rows, 4 columns).",
+    "NOTE: Wrote ALND (8 rows, 5 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

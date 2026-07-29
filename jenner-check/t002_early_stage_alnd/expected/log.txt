@@ -1,0 +1,35 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA tcdb9192
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote tcdb9192 (10 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA earlyBC
+
+
+NOTE: Read 10 rows from tcdb9192.
+NOTE: Wrote earlyBC (10 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_pstage.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_earlybc.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA ALND
+
+
+NOTE: Read 10 rows from earlyBC.
+NOTE: Wrote ALND (8 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_alnd.spec.json
+NOTE: PROC FREQ statement used.

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_bcs_radiation_fractions",
+  "source_file": "breast cancer claims data analysis.sas",
+  "source_blob_sha": "fe09abf9342d286ac590f82aaf5cd7ee4ace1fd3",
+  "source_commit": "822b3830447d65cccb5dbd02b40665b6c7cfba6d",
+  "notes": "Category 1 (whole-breast radiation, 25 fractions, early-stage, age 50+): the author's BCS-surgery -> early-stage PSTAGE -> age>=50 -> RTNO fractionation-group pipeline, run against a 10-row inline TCDB sample in place of the external Tmp1.Tcdb_breast91/92 libname datasets. Classification logic unchanged."
+}
